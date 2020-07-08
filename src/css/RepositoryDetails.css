@@ -1,0 +1,10 @@
+.avatar {
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+    border: solid 1px #337ab7;
+    border-radius: 5px;
+}
+.div-wrapper {
+    overflow-wrap:break-word;
+}

@@ -1,0 +1,2372 @@
+[
+    {
+        "sha": "62a61c11011b2ca28de8e1b84d777c6d3393074f",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6NjJhNjFjMTEwMTFiMmNhMjhkZThlMWI4NGQ3NzdjNmQzMzkzMDc0Zg==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-07T06:40:00Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-07T06:40:00Z"
+            },
+            "message": "Update scalafmt-core to 2.6.2 (#3139)",
+            "tree": {
+                "sha": "5489a0ab2bf2df7c7a766adc6ea4272e5a3c8005",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/5489a0ab2bf2df7c7a766adc6ea4272e5a3c8005"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/62a61c11011b2ca28de8e1b84d777c6d3393074f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfBBjACRBK7hj4Ov3rIwAAdHIIAJFQWwKiD23VnNm0SeFetXW9\nmh4qu25Si4sRtyjJaB6SlHca4vlQpfGXKStqjp3lXDS7j/zPceQDZr7kVuYiP2xj\nICll7RZwf9ead8oazVRr/o4C/dPq8LoGkKsRH9SIbZ2ePjaBiJt2fCv/ud5+7wqo\nFfPD6EJoZcN+evqxDI1sNlnnG3/6UjO2DbHGi7SKuDNLRHwN6HSH2uwSoHDFCGH1\nymn7dPkx6peRXMYZGvyNZlQ6xxpQnYjDWETZL7wTNS07u8DxS2IPN1t280NBrWSE\nL2SCEjOWtyVypmrhhY6ORXe2pWdzljx+C56aahQcXsMSofne/FE4uipyDvv8pxE=\n=b8ur\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5489a0ab2bf2df7c7a766adc6ea4272e5a3c8005\nparent 2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6\nauthor Filipe Regadas <filiperegadas@gmail.com> 1594104000 +0100\ncommitter GitHub <noreply@github.com> 1594104000 +0100\n\nUpdate scalafmt-core to 2.6.2 (#3139)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/62a61c11011b2ca28de8e1b84d777c6d3393074f",
+        "html_url": "https://github.com/spotify/scio/commit/62a61c11011b2ca28de8e1b84d777c6d3393074f",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/62a61c11011b2ca28de8e1b84d777c6d3393074f/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6",
+                "url": "https://api.github.com/repos/spotify/scio/commits/2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6",
+                "html_url": "https://github.com/spotify/scio/commit/2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6"
+            }
+        ]
+    },
+    {
+        "sha": "2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6MmZlM2I4ZGQwYTkyMTEwZWQzMTBmMDk3ODkyMmI3MmQ4ZWM0ZDNmNg==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-06T14:14:49Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-06T14:14:49Z"
+            },
+            "message": "Update sbt-scalafix to 0.9.18 (#3138)",
+            "tree": {
+                "sha": "0b334d5e36242f10c8b13b56caf6ee19a8709ed8",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/0b334d5e36242f10c8b13b56caf6ee19a8709ed8"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfAzHZCRBK7hj4Ov3rIwAAdHIIAGZMy8EnSXRDN5B7+gcVPcZn\nb9Wdb/y5pdG2VDI2O3gWqG+J5/DzqTrMCVQxofSvqRyrcUS7p8PSyjDNTeTzx9p/\n1BFwPQO20WaOBCqx2AFLSiWbOKLJlNrUPJkNKyvXV95MqQEWvLdFlkE3qViDB/7n\nAPouYjFcr2T+UKfJqU07z+FKHxqTX2C1SdXbZCRhDjczcuFedjI8byxkTfP8OyyX\nTH20htFSjQOotlCto7kFtdySzzdJhJNT/E1wqXEAA97ZKQ+A0ZPdyZ2c8ZMypKww\nUkar6OvS//0LNPmiuJwQ9mJVeIxOfM0cBhAT3Rnfzg8CV3ueqwgrcGHvPTNQU8I=\n=gHXY\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0b334d5e36242f10c8b13b56caf6ee19a8709ed8\nparent a59c10b321cfd5bf8361bae1b567e0858eeafbc7\nauthor Filipe Regadas <filiperegadas@gmail.com> 1594044889 +0100\ncommitter GitHub <noreply@github.com> 1594044889 +0100\n\nUpdate sbt-scalafix to 0.9.18 (#3138)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6",
+        "html_url": "https://github.com/spotify/scio/commit/2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/2fe3b8dd0a92110ed310f0978922b72d8ec4d3f6/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a59c10b321cfd5bf8361bae1b567e0858eeafbc7",
+                "url": "https://api.github.com/repos/spotify/scio/commits/a59c10b321cfd5bf8361bae1b567e0858eeafbc7",
+                "html_url": "https://github.com/spotify/scio/commit/a59c10b321cfd5bf8361bae1b567e0858eeafbc7"
+            }
+        ]
+    },
+    {
+        "sha": "a59c10b321cfd5bf8361bae1b567e0858eeafbc7",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6YTU5YzEwYjMyMWNmZDViZjgzNjFiYWUxYjU2N2UwODU4ZWVhZmJjNw==",
+        "commit": {
+            "author": {
+                "name": "Scala Steward",
+                "email": "43047562+scala-steward@users.noreply.github.com",
+                "date": "2020-07-06T06:25:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-06T06:25:09Z"
+            },
+            "message": "Update sbt-sonatype to 3.9.4 (#3136)",
+            "tree": {
+                "sha": "43e02911153a7701e7535406b624ccfe78f9f5d3",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/43e02911153a7701e7535406b624ccfe78f9f5d3"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/a59c10b321cfd5bf8361bae1b567e0858eeafbc7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfAsPFCRBK7hj4Ov3rIwAAdHIIAEFoldN/NQ1xM/EE6wBb5S42\nVX0uWy44td2/i3NcLWPGT8JMQ0pWMaCbRXfJPDRWQsJKIKmAr0Sxa88i2mrSQIkG\nhz0CMXxmKmlsAMECphILci1xzem3iUp0KZXFuk0hsK+F+broXfNDaW6q2Dw70sAB\n8FmhMzDATrSkPmJdputd+CFSWarZIu3O3zj9e9dCRw1aFhHP5UFq8hAV6w3BDOym\nQ/ggN2pAA2CUpRrOaS9ogM/Qh5D35gC0mlsyhUqfbc12OyRti19XiWi3TWVmhGaT\ntJabtdn6ZZsMK0qqQeAfMnRZfkBQ9yjyWSRFmNCDNtdojbhVdLFKm1g0zZHmRAs=\n=ipuJ\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 43e02911153a7701e7535406b624ccfe78f9f5d3\nparent 9111d7b0277386ef76c2ee33a45612aa21fe8e1f\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1594016709 +0200\ncommitter GitHub <noreply@github.com> 1594016709 +0100\n\nUpdate sbt-sonatype to 3.9.4 (#3136)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/a59c10b321cfd5bf8361bae1b567e0858eeafbc7",
+        "html_url": "https://github.com/spotify/scio/commit/a59c10b321cfd5bf8361bae1b567e0858eeafbc7",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/a59c10b321cfd5bf8361bae1b567e0858eeafbc7/comments",
+        "author": {
+            "login": "scala-steward",
+            "id": 43047562,
+            "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scala-steward",
+            "html_url": "https://github.com/scala-steward",
+            "followers_url": "https://api.github.com/users/scala-steward/followers",
+            "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+            "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+            "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+            "repos_url": "https://api.github.com/users/scala-steward/repos",
+            "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9111d7b0277386ef76c2ee33a45612aa21fe8e1f",
+                "url": "https://api.github.com/repos/spotify/scio/commits/9111d7b0277386ef76c2ee33a45612aa21fe8e1f",
+                "html_url": "https://github.com/spotify/scio/commit/9111d7b0277386ef76c2ee33a45612aa21fe8e1f"
+            }
+        ]
+    },
+    {
+        "sha": "9111d7b0277386ef76c2ee33a45612aa21fe8e1f",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6OTExMWQ3YjAyNzczODZlZjc2YzJlZTMzYTQ1NjEyYWEyMWZlOGUxZg==",
+        "commit": {
+            "author": {
+                "name": "Liza Meleshchuk",
+                "email": "emelesch@calliduscloud.com",
+                "date": "2020-07-03T14:19:15Z"
+            },
+            "committer": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-03T14:29:47Z"
+            },
+            "message": "Add initial update alias op to ES7(#2920)\n\nCo-authored-by: Liza Meleshchuk <elizavetam@spotify.com>",
+            "tree": {
+                "sha": "a62ddbe1594092901ba7e11ed9b980ba3545a706",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/a62ddbe1594092901ba7e11ed9b980ba3545a706"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/9111d7b0277386ef76c2ee33a45612aa21fe8e1f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEE8nQ/KtIUToDwLQ2YVndoJZI/x3cFAl7/QNsACgkQVndoJZI/\nx3d7DAf9Gka0ylPUNJ69AQwXY7+yztD67p9y8VBxMaQ2+idkImhEtPSXygc1u54q\nO6HpBGCbmf8YcNznjOoGSd8aVAMlupm5O3AX6rp8RJoLnGDlpEm+4IL8JN0G0ZPe\nHtsTLLrxb0DnjYzT6IvD8ehxsdEosqQ6EfVW+nUh9JJcJca5BGnqC2mlIr/ykf1B\nE3yhhp3aNSL11YyMU36dYCG3zt3HcSgkPOS6s7ZC16v+n298IaAoDbuobCwGiLSX\nV/iCwOffmCarETAYxBvVzDb8FfgkGNJ8xWovGjFMb3Ln6NroSuLxII8tqsvKqk9O\n7440jOVwT2c/FnM4xelIGELF1/EMrw==\n=Kh8N\n-----END PGP SIGNATURE-----",
+                "payload": "tree a62ddbe1594092901ba7e11ed9b980ba3545a706\nparent f1289d421045e034de5f10995457a57fc3546951\nauthor Liza Meleshchuk <emelesch@calliduscloud.com> 1593785955 -0400\ncommitter Filipe Regadas <filiperegadas@gmail.com> 1593786587 +0100\n\nAdd initial update alias op to ES7(#2920)\n\nCo-authored-by: Liza Meleshchuk <elizavetam@spotify.com>\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/9111d7b0277386ef76c2ee33a45612aa21fe8e1f",
+        "html_url": "https://github.com/spotify/scio/commit/9111d7b0277386ef76c2ee33a45612aa21fe8e1f",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/9111d7b0277386ef76c2ee33a45612aa21fe8e1f/comments",
+        "author": {
+            "login": "6c697a61",
+            "id": 5132577,
+            "node_id": "MDQ6VXNlcjUxMzI1Nzc=",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/5132577?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/6c697a61",
+            "html_url": "https://github.com/6c697a61",
+            "followers_url": "https://api.github.com/users/6c697a61/followers",
+            "following_url": "https://api.github.com/users/6c697a61/following{/other_user}",
+            "gists_url": "https://api.github.com/users/6c697a61/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/6c697a61/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/6c697a61/subscriptions",
+            "organizations_url": "https://api.github.com/users/6c697a61/orgs",
+            "repos_url": "https://api.github.com/users/6c697a61/repos",
+            "events_url": "https://api.github.com/users/6c697a61/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/6c697a61/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f1289d421045e034de5f10995457a57fc3546951",
+                "url": "https://api.github.com/repos/spotify/scio/commits/f1289d421045e034de5f10995457a57fc3546951",
+                "html_url": "https://github.com/spotify/scio/commit/f1289d421045e034de5f10995457a57fc3546951"
+            }
+        ]
+    },
+    {
+        "sha": "f1289d421045e034de5f10995457a57fc3546951",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6ZjEyODlkNDIxMDQ1ZTAzNGRlNWYxMDk5NTQ1N2E1N2ZjMzU0Njk1MQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T19:49:56Z"
+            },
+            "committer": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T19:49:56Z"
+            },
+            "message": "Setting version to 0.9.3-SNAPSHOT",
+            "tree": {
+                "sha": "d8e63497ecf94bdf2bbf05734843035e2ae0562d",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/d8e63497ecf94bdf2bbf05734843035e2ae0562d"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/f1289d421045e034de5f10995457a57fc3546951",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEE8nQ/KtIUToDwLQ2YVndoJZI/x3cFAl7+OmQACgkQVndoJZI/\nx3f9qwf+KgH/tp3oIZrAXZnvhqpuDqin3EznpkFEYEVmAXMZiPuKGGpCMdi9UkKF\nfMj6xUYUV0EFGvxAivc1J1CrhZzcdyjWnx87on4xAl/dQDMYCDJlp6szKB4XDPF2\nTQf29pQ7wPDfV6JJUhKiCi/Da6+GWHdsEYcr88NLyQ4Ebn9iMUL67aWzqtawX1PT\neBXB/VKX/96nIsM66zUYyd5LTQ3WfDnkCi/Od6wopYUl8iOx7TXiU3q6ssr9n2YF\nZcL5K3FnLToBXYiA5oPDCNpL9Hqh5pdGJIJLfy+4n2aQg16GegtcLjxHBnlP+PD4\nBozKG9qbzNKUTlg6h6sc/fbY3LBX7g==\n=fiN4\n-----END PGP SIGNATURE-----",
+                "payload": "tree d8e63497ecf94bdf2bbf05734843035e2ae0562d\nparent cdcc24c3ab329ed5ae2d350104fd23acac8e603c\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593719396 +0100\ncommitter Filipe Regadas <filiperegadas@gmail.com> 1593719396 +0100\n\nSetting version to 0.9.3-SNAPSHOT\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/f1289d421045e034de5f10995457a57fc3546951",
+        "html_url": "https://github.com/spotify/scio/commit/f1289d421045e034de5f10995457a57fc3546951",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/f1289d421045e034de5f10995457a57fc3546951/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cdcc24c3ab329ed5ae2d350104fd23acac8e603c",
+                "url": "https://api.github.com/repos/spotify/scio/commits/cdcc24c3ab329ed5ae2d350104fd23acac8e603c",
+                "html_url": "https://github.com/spotify/scio/commit/cdcc24c3ab329ed5ae2d350104fd23acac8e603c"
+            }
+        ]
+    },
+    {
+        "sha": "cdcc24c3ab329ed5ae2d350104fd23acac8e603c",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6Y2RjYzI0YzNhYjMyOWVkNWFlMmQzNTAxMDRmZDIzYWNhYzhlNjAzYw==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T18:01:14Z"
+            },
+            "committer": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T18:01:14Z"
+            },
+            "message": "Update release docs",
+            "tree": {
+                "sha": "fe7df3df70e341907bf9556012d5ef20c146b38f",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/fe7df3df70e341907bf9556012d5ef20c146b38f"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/cdcc24c3ab329ed5ae2d350104fd23acac8e603c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEE8nQ/KtIUToDwLQ2YVndoJZI/x3cFAl7+IOoACgkQVndoJZI/\nx3cjOgf/UqcL7nQeFrm+cO8n4kKKt5d1WOBJrBq2AoEfFmYXkx6Q/MI2HZXPoGtk\n2alyOo6FDjJNET4sxOK5d21kPjE1PIFS/Q8sKiZBTBh1n6wlXHWntCXVe2OrmMFk\n4KZIIOaW+MwHK0gmsCyQga/oF6/owngLXtb39fuKiywYj4wB7XGhQvK4+CPINfCN\n4txqs4Bc0A2RfNIoSPcoc2vUfIuD34VcFcfndLIXrkLapSLjs0bDi2hXBKSlgIwZ\nS45rEB6JMQXSnbbz8dVjrNccX18axWbxlC6xWvtj7powdNwzIyoEsfBXlErUeL3k\nlRK5YHkVGCrBvmJVuFPnko2aSrMo+w==\n=sauf\n-----END PGP SIGNATURE-----",
+                "payload": "tree fe7df3df70e341907bf9556012d5ef20c146b38f\nparent fead2dc9741c7a929b15699437ecc25dffa4bc95\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593712874 +0100\ncommitter Filipe Regadas <filiperegadas@gmail.com> 1593712874 +0100\n\nUpdate release docs\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/cdcc24c3ab329ed5ae2d350104fd23acac8e603c",
+        "html_url": "https://github.com/spotify/scio/commit/cdcc24c3ab329ed5ae2d350104fd23acac8e603c",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/cdcc24c3ab329ed5ae2d350104fd23acac8e603c/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fead2dc9741c7a929b15699437ecc25dffa4bc95",
+                "url": "https://api.github.com/repos/spotify/scio/commits/fead2dc9741c7a929b15699437ecc25dffa4bc95",
+                "html_url": "https://github.com/spotify/scio/commit/fead2dc9741c7a929b15699437ecc25dffa4bc95"
+            }
+        ]
+    },
+    {
+        "sha": "fead2dc9741c7a929b15699437ecc25dffa4bc95",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6ZmVhZDJkYzk3NDFjN2E5MjliMTU2OTk0MzdlY2MyNWRmZmE0YmM5NQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T17:27:19Z"
+            },
+            "committer": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T17:27:19Z"
+            },
+            "message": "Setting version to 0.9.2",
+            "tree": {
+                "sha": "f7cfa31193ed0b2f1d2ef537733be21e84da162e",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/f7cfa31193ed0b2f1d2ef537733be21e84da162e"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/fead2dc9741c7a929b15699437ecc25dffa4bc95",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEE8nQ/KtIUToDwLQ2YVndoJZI/x3cFAl7+GPcACgkQVndoJZI/\nx3esAwf6AlOZIgCfkw0XgUVuWwshtWzXm6M7CAdhgFhX6uhvqMgJY+vtfEFHP8eP\nZJPDZKon5f7Fzb3NtezWDS+Iyfke9q5iegR6YxYOK/TScv0cE9cQy/Xc1neWejXG\nubKGj6thYtfbKeUrxdz78mAOywHFQU680mTsJplf64XAHbUs3sBO08M/FcM5K22s\nYIr0GKaggmgEo9HqXCCTbBhWDpED4FNIK43M8niZrP4D5bFpOVenZ26ZcDTOEfUY\n9sYGdwUXBDen698M60ditEcTZW/HKYV6DeVFM/ztpuN6OBnfpr8G9uLK1AjxCmqd\nzMMFv5sEBq+LuBG/cIzqHItWsZjvHw==\n=KKFK\n-----END PGP SIGNATURE-----",
+                "payload": "tree f7cfa31193ed0b2f1d2ef537733be21e84da162e\nparent b05ffd7f91fe4adb4756a2aa258c9c544e8515e5\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593710839 +0100\ncommitter Filipe Regadas <filiperegadas@gmail.com> 1593710839 +0100\n\nSetting version to 0.9.2\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/fead2dc9741c7a929b15699437ecc25dffa4bc95",
+        "html_url": "https://github.com/spotify/scio/commit/fead2dc9741c7a929b15699437ecc25dffa4bc95",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/fead2dc9741c7a929b15699437ecc25dffa4bc95/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b05ffd7f91fe4adb4756a2aa258c9c544e8515e5",
+                "url": "https://api.github.com/repos/spotify/scio/commits/b05ffd7f91fe4adb4756a2aa258c9c544e8515e5",
+                "html_url": "https://github.com/spotify/scio/commit/b05ffd7f91fe4adb4756a2aa258c9c544e8515e5"
+            }
+        ]
+    },
+    {
+        "sha": "b05ffd7f91fe4adb4756a2aa258c9c544e8515e5",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6YjA1ZmZkN2Y5MWZlNGFkYjQ3NTZhMmFhMjU4YzljNTQ0ZTg1MTVlNQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T13:23:53Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-02T13:23:53Z"
+            },
+            "message": "Update scala to 2.13.3 (#3130)",
+            "tree": {
+                "sha": "331e4d45a11fcb2b85e2facd363b5ee31de3ef55",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/331e4d45a11fcb2b85e2facd363b5ee31de3ef55"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/b05ffd7f91fe4adb4756a2aa258c9c544e8515e5",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe/d/pCRBK7hj4Ov3rIwAAdHIIACqnqLot37Fhq3vNRNViKqTU\ntOQX8cgfQeZA5oOpenmU+6gCgPRJ125NCj8rK8a2Z/LQFXgHvshJw/XQUtfNtzRx\nI5WLpt/y3jbyauw9bRLcImYSUxpfxfecF5LHnnhIfYYBbNYSv3B6x7sJbsYq0O+K\nrY3LwXE1n4CUCLAc0k5m6qK1nKPv8uAyMfhtNEesh6QTcfIjnWY5GbK0n9sg+5vx\n2d7VBjt5YKDmf7tgvS72fUCtesHETXRpBXYasv0ILlVq+NY0A8zIw6WHlIcXKKGR\ncAtxb9WiE7ykV/+hwXYa7PERV8IZwP+ol1wey0P3JSyakXXr07EpdH11ZiU7OC8=\n=hSKh\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 331e4d45a11fcb2b85e2facd363b5ee31de3ef55\nparent 8cc4d9e342ffe370f740e34e58edc844d3c85d25\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593696233 +0100\ncommitter GitHub <noreply@github.com> 1593696233 +0100\n\nUpdate scala to 2.13.3 (#3130)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/b05ffd7f91fe4adb4756a2aa258c9c544e8515e5",
+        "html_url": "https://github.com/spotify/scio/commit/b05ffd7f91fe4adb4756a2aa258c9c544e8515e5",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/b05ffd7f91fe4adb4756a2aa258c9c544e8515e5/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8cc4d9e342ffe370f740e34e58edc844d3c85d25",
+                "url": "https://api.github.com/repos/spotify/scio/commits/8cc4d9e342ffe370f740e34e58edc844d3c85d25",
+                "html_url": "https://github.com/spotify/scio/commit/8cc4d9e342ffe370f740e34e58edc844d3c85d25"
+            }
+        ]
+    },
+    {
+        "sha": "8cc4d9e342ffe370f740e34e58edc844d3c85d25",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6OGNjNGQ5ZTM0MmZmZTM3MGY3NDBlMzRlNThlZGM4NDRkM2M4NWQyNQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-02T13:23:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-02T13:23:08Z"
+            },
+            "message": "Add support for PipelineOptions in ContextAndArgs (#3121)",
+            "tree": {
+                "sha": "0ceb03786eb513d6b257ad76ca7069f6d1e0b1de",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/0ceb03786eb513d6b257ad76ca7069f6d1e0b1de"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/8cc4d9e342ffe370f740e34e58edc844d3c85d25",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe/d+8CRBK7hj4Ov3rIwAAdHIIAD1NN//AxHYVs0qlXmsWLS6M\nUve7zLBAvJBFoC5YNG1UVv4Kt/ZndVt8GcH84unyjhz+FcPG3US+x/TKei4npxD5\nGENe5RfHjm/WAC8S101WWOKtVaesKloaPpoHYGGaorHT/JTMi+rN9LSIYJcliK9Q\ngvnUryqGhpKEWLkNswyF6nfStOXrhD4zseepW350o5Oo+lNuZp1S1O7GfQjMgi6I\nfk5T4abph4CN9xY8Hd0WRtAabQ5sN4ix7AXSWRlLNfJtW+44/U2izqNSdyzg8Ejx\n4CSuQNafJbcIYHDrsS+nvYSYSr1gUL1+eCDVDi0HVF51pYo8oNmXOplX8IBWACs=\n=0W4d\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0ceb03786eb513d6b257ad76ca7069f6d1e0b1de\nparent d2a654fb9570bcd86bc0fe8b8b82680952e90545\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593696188 +0100\ncommitter GitHub <noreply@github.com> 1593696188 +0100\n\nAdd support for PipelineOptions in ContextAndArgs (#3121)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/8cc4d9e342ffe370f740e34e58edc844d3c85d25",
+        "html_url": "https://github.com/spotify/scio/commit/8cc4d9e342ffe370f740e34e58edc844d3c85d25",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/8cc4d9e342ffe370f740e34e58edc844d3c85d25/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d2a654fb9570bcd86bc0fe8b8b82680952e90545",
+                "url": "https://api.github.com/repos/spotify/scio/commits/d2a654fb9570bcd86bc0fe8b8b82680952e90545",
+                "html_url": "https://github.com/spotify/scio/commit/d2a654fb9570bcd86bc0fe8b8b82680952e90545"
+            }
+        ]
+    },
+    {
+        "sha": "d2a654fb9570bcd86bc0fe8b8b82680952e90545",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6ZDJhNjU0ZmI5NTcwYmNkODZiYzBmZThiOGI4MjY4MDk1MmU5MDU0NQ==",
+        "commit": {
+            "author": {
+                "name": "Neville Li",
+                "email": "neville.lyh@gmail.com",
+                "date": "2020-07-01T18:53:07Z"
+            },
+            "committer": {
+                "name": "Neville Li",
+                "email": "neville.lyh@gmail.com",
+                "date": "2020-07-01T18:53:07Z"
+            },
+            "message": "fix site homepage formatting",
+            "tree": {
+                "sha": "8c213ebefe2ab56958ccae98ad11b37892cc956a",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/8c213ebefe2ab56958ccae98ad11b37892cc956a"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/d2a654fb9570bcd86bc0fe8b8b82680952e90545",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/d2a654fb9570bcd86bc0fe8b8b82680952e90545",
+        "html_url": "https://github.com/spotify/scio/commit/d2a654fb9570bcd86bc0fe8b8b82680952e90545",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/d2a654fb9570bcd86bc0fe8b8b82680952e90545/comments",
+        "author": {
+            "login": "nevillelyh",
+            "id": 468514,
+            "node_id": "MDQ6VXNlcjQ2ODUxNA==",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/468514?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nevillelyh",
+            "html_url": "https://github.com/nevillelyh",
+            "followers_url": "https://api.github.com/users/nevillelyh/followers",
+            "following_url": "https://api.github.com/users/nevillelyh/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nevillelyh/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nevillelyh/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nevillelyh/subscriptions",
+            "organizations_url": "https://api.github.com/users/nevillelyh/orgs",
+            "repos_url": "https://api.github.com/users/nevillelyh/repos",
+            "events_url": "https://api.github.com/users/nevillelyh/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nevillelyh/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nevillelyh",
+            "id": 468514,
+            "node_id": "MDQ6VXNlcjQ2ODUxNA==",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/468514?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nevillelyh",
+            "html_url": "https://github.com/nevillelyh",
+            "followers_url": "https://api.github.com/users/nevillelyh/followers",
+            "following_url": "https://api.github.com/users/nevillelyh/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nevillelyh/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nevillelyh/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nevillelyh/subscriptions",
+            "organizations_url": "https://api.github.com/users/nevillelyh/orgs",
+            "repos_url": "https://api.github.com/users/nevillelyh/repos",
+            "events_url": "https://api.github.com/users/nevillelyh/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nevillelyh/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "624ed488e95e2d518b99eb9e8a818557a5d534c1",
+                "url": "https://api.github.com/repos/spotify/scio/commits/624ed488e95e2d518b99eb9e8a818557a5d534c1",
+                "html_url": "https://github.com/spotify/scio/commit/624ed488e95e2d518b99eb9e8a818557a5d534c1"
+            }
+        ]
+    },
+    {
+        "sha": "624ed488e95e2d518b99eb9e8a818557a5d534c1",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6NjI0ZWQ0ODhlOTVlMmQ1MThiOTllYjllOGE4MTg1NTdhNWQ1MzRjMQ==",
+        "commit": {
+            "author": {
+                "name": "Julien Tournay",
+                "email": "julient@spotify.com",
+                "date": "2020-07-01T12:36:48Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-01T12:36:48Z"
+            },
+            "message": "Fix containValue serialization (#3128)",
+            "tree": {
+                "sha": "135a8fcdb5206e170b16084eb8964de64e47bf5a",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/135a8fcdb5206e170b16084eb8964de64e47bf5a"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/624ed488e95e2d518b99eb9e8a818557a5d534c1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe/INgCRBK7hj4Ov3rIwAAdHIIACGrkexBXt974zdpFF+AYdSU\nP7Smi4CB/8k5+Q096Tp1Ma0FALqEHp20veo1uR84WCx5kDmQ91zMSncs+IE+sf7e\nc79Xu78dd+Q5cQeuKMr96tbg6hK+s1XykX3ItRc8/b/MSCZPq1H/IrBctBBUJ/pb\nUfa7dLwQN2KkR9qsPD5Rq337MK+DBWlfiCAqk3CXi4GZmpw0isrZesU7zopwTGkb\nlYl0htx7PsZUyE05402hX75BpxijNadUlwRQ68d6DdqFqnc5x7V0ojtwW+jDZxx2\na6l2m+iajJvcNlrqnT0zqB2a4CB9SRQK1/ctH+II1fy3eHXc3baxZUCMjbFQQlo=\n=72zC\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 135a8fcdb5206e170b16084eb8964de64e47bf5a\nparent 99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385\nauthor Julien Tournay <julient@spotify.com> 1593607008 +0200\ncommitter GitHub <noreply@github.com> 1593607008 -0400\n\nFix containValue serialization (#3128)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/624ed488e95e2d518b99eb9e8a818557a5d534c1",
+        "html_url": "https://github.com/spotify/scio/commit/624ed488e95e2d518b99eb9e8a818557a5d534c1",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/624ed488e95e2d518b99eb9e8a818557a5d534c1/comments",
+        "author": {
+            "login": "jto",
+            "id": 197582,
+            "node_id": "MDQ6VXNlcjE5NzU4Mg==",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/197582?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jto",
+            "html_url": "https://github.com/jto",
+            "followers_url": "https://api.github.com/users/jto/followers",
+            "following_url": "https://api.github.com/users/jto/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jto/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jto/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jto/subscriptions",
+            "organizations_url": "https://api.github.com/users/jto/orgs",
+            "repos_url": "https://api.github.com/users/jto/repos",
+            "events_url": "https://api.github.com/users/jto/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jto/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385",
+                "url": "https://api.github.com/repos/spotify/scio/commits/99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385",
+                "html_url": "https://github.com/spotify/scio/commit/99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385"
+            }
+        ]
+    },
+    {
+        "sha": "99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6OTllNDY1OGQxNGMzNDRhNjVjZTdlMWVmMGFiMGIxYTI5ZmRkMzM4NQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-07-01T10:31:51Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-01T10:31:51Z"
+            },
+            "message": "Cleanup scio-repl classloader (#3118)\n\n* Cleanup scio-repl classloader\r\n\r\n* fixup! Cleanup scio-repl classloader",
+            "tree": {
+                "sha": "d12b0a63cd3d522143d389a13e29e251d5adcd0f",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/d12b0a63cd3d522143d389a13e29e251d5adcd0f"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe/GYXCRBK7hj4Ov3rIwAAdHIIAEy0iZIDyg8il6/G+vLyqPF1\n1ATq/9TLfWXxM/dTPS5aXT7WvdqhJPd8s4kRbgUN3L2zUUVESAR7mzo3Pxod+53j\naETAxm3cJB+/fYhGzX/262w7/Rg6/o2XLpR9HJEt9cLwsZVsJ2ld7bdpMsnfDb2O\nfPoirzABFeOIpUfgYpaMbrseA4Of69ntDKYo452NbJCqWEmAMwrINrYY3JdhZClz\nSv8YWTZWB69bV3Ev8jXhhVkIyZkixvg1fQnzGdJeFlayW4rqDFadqqcscGe8bnbj\nCPSweEEj3nS48MM1SxRFJ8Ce9Sh7QfyLwEzqhCUhQr5QCJKZBh7lQpbE3fyqONA=\n=Uy8B\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree d12b0a63cd3d522143d389a13e29e251d5adcd0f\nparent d3e6397e8f900c1ac7719328b64f94732d5d236f\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593599511 +0100\ncommitter GitHub <noreply@github.com> 1593599511 +0200\n\nCleanup scio-repl classloader (#3118)\n\n* Cleanup scio-repl classloader\r\n\r\n* fixup! Cleanup scio-repl classloader"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385",
+        "html_url": "https://github.com/spotify/scio/commit/99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/99e4658d14c344a65ce7e1ef0ab0b1a29fdd3385/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d3e6397e8f900c1ac7719328b64f94732d5d236f",
+                "url": "https://api.github.com/repos/spotify/scio/commits/d3e6397e8f900c1ac7719328b64f94732d5d236f",
+                "html_url": "https://github.com/spotify/scio/commit/d3e6397e8f900c1ac7719328b64f94732d5d236f"
+            }
+        ]
+    },
+    {
+        "sha": "d3e6397e8f900c1ac7719328b64f94732d5d236f",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6ZDNlNjM5N2U4ZjkwMGMxYWM3NzE5MzI4YjY0Zjk0NzMyZDVkMjM2Zg==",
+        "commit": {
+            "author": {
+                "name": "Scala Steward",
+                "email": "43047562+scala-steward@users.noreply.github.com",
+                "date": "2020-07-01T07:11:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-01T07:11:55Z"
+            },
+            "message": "Update sbt-bloop to 1.4.3 (#3125)",
+            "tree": {
+                "sha": "1732bffa1fc2c00892bd50c3231cadfe1bed3c47",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/1732bffa1fc2c00892bd50c3231cadfe1bed3c47"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/d3e6397e8f900c1ac7719328b64f94732d5d236f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe/Dc7CRBK7hj4Ov3rIwAAdHIIAKDVrC87/tOovc7lCOEeT2xo\nfZ4ZfoyTlJc7GFIUZf2S5sbl/IMrGCizuTyDAVVD7ApInTRst/u3cUM3mPFkM4Io\nyj4skL9H0V3dv8XxUvUwqpfwQoIh6tUxNunAgXkY1eRB8y9MfLFYTu4jr561Z2P+\njBNRwTChn/Xx/ywsry3nSP7hp5vwOWP9By3Mn0zJtUzMdO7UettLaym5iMn/a5Jr\nc59VBj4cmnPibizw/lPcufVeRQEdejq7luPkoJ0Z1bfnkyPda8DGXnym1yNdhunx\nXB0gN0eAGYOZgUFfcOFDvmzNxlUrDkwHH82QFEtP0uyWHyCvNZgEPpS50hpKp2U=\n=S0v9\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 1732bffa1fc2c00892bd50c3231cadfe1bed3c47\nparent 96a952857865aa40b8ac7a7f33e29d422fff2d9f\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1593587515 +0200\ncommitter GitHub <noreply@github.com> 1593587515 +0100\n\nUpdate sbt-bloop to 1.4.3 (#3125)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/d3e6397e8f900c1ac7719328b64f94732d5d236f",
+        "html_url": "https://github.com/spotify/scio/commit/d3e6397e8f900c1ac7719328b64f94732d5d236f",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/d3e6397e8f900c1ac7719328b64f94732d5d236f/comments",
+        "author": {
+            "login": "scala-steward",
+            "id": 43047562,
+            "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scala-steward",
+            "html_url": "https://github.com/scala-steward",
+            "followers_url": "https://api.github.com/users/scala-steward/followers",
+            "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+            "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+            "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+            "repos_url": "https://api.github.com/users/scala-steward/repos",
+            "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "96a952857865aa40b8ac7a7f33e29d422fff2d9f",
+                "url": "https://api.github.com/repos/spotify/scio/commits/96a952857865aa40b8ac7a7f33e29d422fff2d9f",
+                "html_url": "https://github.com/spotify/scio/commit/96a952857865aa40b8ac7a7f33e29d422fff2d9f"
+            }
+        ]
+    },
+    {
+        "sha": "96a952857865aa40b8ac7a7f33e29d422fff2d9f",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6OTZhOTUyODU3ODY1YWE0MGI4YWM3YTdmMzNlMjlkNDIyZmZmMmQ5Zg==",
+        "commit": {
+            "author": {
+                "name": "Scala Steward",
+                "email": "43047562+scala-steward@users.noreply.github.com",
+                "date": "2020-07-01T07:09:27Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-01T07:09:27Z"
+            },
+            "message": "Update magnolify-avro, magnolify-bigtable, ... to 0.2.1 (#3127)",
+            "tree": {
+                "sha": "5898b00913cca9ef9152d1d889d4e8bb027971c0",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/5898b00913cca9ef9152d1d889d4e8bb027971c0"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/96a952857865aa40b8ac7a7f33e29d422fff2d9f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe/DanCRBK7hj4Ov3rIwAAdHIIAEVyS7XfQasE0i2OMbpjLyKK\n30OZfFJ5UmiLGP1Tu/dNsovIfACwgRllIlnB3u1+ESGSmf3yo9Z6VcnILZj2YyQz\nFoy7lFg6Zwava+YjRqsBMLFNB129TYFjMbPG0ShUa97o4grzLMKwKPnNyB7S64pR\n8+QiyzSZNIQf6bFtav46Oz9QNzvkFLflPrIetCOxspxqWn6D0LVG5PESpxzUns/f\noRcj6DM9bDwVgNxY15Q75I55EJXfMZziyUsxt5WIcZi0IEGYodEpHxxn61Blbu0U\nhhaibeS31XL9Ev1ykNaEEs86Fn39gKfNuxy7DNx/bt5GDWKSYTKmkFyK0kZpEpQ=\n=UURB\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5898b00913cca9ef9152d1d889d4e8bb027971c0\nparent 039e01dca5b12c7c1d7eccae3835dcd106e86866\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1593587367 +0200\ncommitter GitHub <noreply@github.com> 1593587367 +0100\n\nUpdate magnolify-avro, magnolify-bigtable, ... to 0.2.1 (#3127)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/96a952857865aa40b8ac7a7f33e29d422fff2d9f",
+        "html_url": "https://github.com/spotify/scio/commit/96a952857865aa40b8ac7a7f33e29d422fff2d9f",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/96a952857865aa40b8ac7a7f33e29d422fff2d9f/comments",
+        "author": {
+            "login": "scala-steward",
+            "id": 43047562,
+            "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scala-steward",
+            "html_url": "https://github.com/scala-steward",
+            "followers_url": "https://api.github.com/users/scala-steward/followers",
+            "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+            "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+            "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+            "repos_url": "https://api.github.com/users/scala-steward/repos",
+            "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "039e01dca5b12c7c1d7eccae3835dcd106e86866",
+                "url": "https://api.github.com/repos/spotify/scio/commits/039e01dca5b12c7c1d7eccae3835dcd106e86866",
+                "html_url": "https://github.com/spotify/scio/commit/039e01dca5b12c7c1d7eccae3835dcd106e86866"
+            }
+        ]
+    },
+    {
+        "sha": "039e01dca5b12c7c1d7eccae3835dcd106e86866",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6MDM5ZTAxZGNhNWIxMmM3YzFkN2VjY2FlMzgzNWRjZDEwNmU4Njg2Ng==",
+        "commit": {
+            "author": {
+                "name": "Neville Li",
+                "email": "neville@spotify.com",
+                "date": "2020-07-01T07:08:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-07-01T07:08:39Z"
+            },
+            "message": "switch from gitter to slack (#3126)",
+            "tree": {
+                "sha": "c3d441fd9fabbdd4b5c88e928e92b62f69ecdc16",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/c3d441fd9fabbdd4b5c88e928e92b62f69ecdc16"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/039e01dca5b12c7c1d7eccae3835dcd106e86866",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe/DZ3CRBK7hj4Ov3rIwAAdHIIAB3H8TEZz6swXXc9UTnU8J3W\nY8Io/fBOi3Dc18kmCkp9auwHe7Qwg4GZWsTw/raFZC5gGIdc5dv0s2Vv6EWmreO3\nVnEFjwcXwh5MAvtjfXH4/JcwTWaQzElNpJJjaOQQuhLuqLEwL2c2ylLYsQoDtdsU\n0oRNJjFr40xqD0Tv6YwSD7uvBqJ5SxchXS3gtAQolAM7hmyLCgLo+S3uAv4U2kEw\nFlyL2ipKupB+GfVFYQbwUs9aBY26kjzYyhdYshnA5PEocUwt93mXQhdhjD08HmAK\npHSY0HDp8OIESd+EznkakQYj2opEGJw5mFAGz90lNYUlDnPpGi8Gqvah1t60Yqo=\n=iZUg\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree c3d441fd9fabbdd4b5c88e928e92b62f69ecdc16\nparent 1e35d1c8768d9c76a6eb96d3c011b5b840bedc41\nauthor Neville Li <neville@spotify.com> 1593587319 -0400\ncommitter GitHub <noreply@github.com> 1593587319 +0100\n\nswitch from gitter to slack (#3126)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/039e01dca5b12c7c1d7eccae3835dcd106e86866",
+        "html_url": "https://github.com/spotify/scio/commit/039e01dca5b12c7c1d7eccae3835dcd106e86866",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/039e01dca5b12c7c1d7eccae3835dcd106e86866/comments",
+        "author": {
+            "login": "nevillelyh",
+            "id": 468514,
+            "node_id": "MDQ6VXNlcjQ2ODUxNA==",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/468514?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nevillelyh",
+            "html_url": "https://github.com/nevillelyh",
+            "followers_url": "https://api.github.com/users/nevillelyh/followers",
+            "following_url": "https://api.github.com/users/nevillelyh/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nevillelyh/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nevillelyh/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nevillelyh/subscriptions",
+            "organizations_url": "https://api.github.com/users/nevillelyh/orgs",
+            "repos_url": "https://api.github.com/users/nevillelyh/repos",
+            "events_url": "https://api.github.com/users/nevillelyh/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nevillelyh/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1e35d1c8768d9c76a6eb96d3c011b5b840bedc41",
+                "url": "https://api.github.com/repos/spotify/scio/commits/1e35d1c8768d9c76a6eb96d3c011b5b840bedc41",
+                "html_url": "https://github.com/spotify/scio/commit/1e35d1c8768d9c76a6eb96d3c011b5b840bedc41"
+            }
+        ]
+    },
+    {
+        "sha": "1e35d1c8768d9c76a6eb96d3c011b5b840bedc41",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6MWUzNWQxYzg3NjhkOWM3NmE2ZWI5NmQzYzAxMWI1Yjg0MGJlZGM0MQ==",
+        "commit": {
+            "author": {
+                "name": "Scala Steward",
+                "email": "43047562+scala-steward@users.noreply.github.com",
+                "date": "2020-06-30T19:13:25Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-30T19:13:25Z"
+            },
+            "message": "Update sbt-avro to 2.1.1 (#3124)",
+            "tree": {
+                "sha": "c19fe93f65868bcdfe318821491221d02e720598",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/c19fe93f65868bcdfe318821491221d02e720598"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/1e35d1c8768d9c76a6eb96d3c011b5b840bedc41",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+47VCRBK7hj4Ov3rIwAAdHIIADCuy+KE+PuKhOdBZTigh5Qi\n2jhTCjIzNxkgmSqAbVA0ntza9/dVyJmAxhL9orYqCm2QVZXCL2LzgifbsKgGxxOB\nSZwpGBTZbu/rF877g79mNKpgTYnQe4ivlNFYObhIOhevtOk4Qv+XdqGdvFeE9fdM\n7v1Fb6xWnIGUYnvbq0YzzR7j6TbQu07VeLs29J8xukTCTyxy1wdRA2nnl/hGzFsu\n2dx4f2VjdMmGhX1EvyNV2ktTiqoXqqHJrP8JKCIm5SqqZ7UKR24G5f4gbx9s+m6B\nuTXl3GMo/C0+ax50vjeEys9MvBGB52OTsHYOSYZj6U1o0Y2bhFtd8ed/C/s55bU=\n=6VT0\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree c19fe93f65868bcdfe318821491221d02e720598\nparent 319bba57174d9db9fb329a96a1c7c68c12017111\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1593544405 +0200\ncommitter GitHub <noreply@github.com> 1593544405 -0400\n\nUpdate sbt-avro to 2.1.1 (#3124)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/1e35d1c8768d9c76a6eb96d3c011b5b840bedc41",
+        "html_url": "https://github.com/spotify/scio/commit/1e35d1c8768d9c76a6eb96d3c011b5b840bedc41",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/1e35d1c8768d9c76a6eb96d3c011b5b840bedc41/comments",
+        "author": {
+            "login": "scala-steward",
+            "id": 43047562,
+            "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scala-steward",
+            "html_url": "https://github.com/scala-steward",
+            "followers_url": "https://api.github.com/users/scala-steward/followers",
+            "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+            "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+            "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+            "repos_url": "https://api.github.com/users/scala-steward/repos",
+            "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "319bba57174d9db9fb329a96a1c7c68c12017111",
+                "url": "https://api.github.com/repos/spotify/scio/commits/319bba57174d9db9fb329a96a1c7c68c12017111",
+                "html_url": "https://github.com/spotify/scio/commit/319bba57174d9db9fb329a96a1c7c68c12017111"
+            }
+        ]
+    },
+    {
+        "sha": "319bba57174d9db9fb329a96a1c7c68c12017111",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6MzE5YmJhNTcxNzRkOWRiOWZiMzI5YTk2YTFjN2M2OGMxMjAxNzExMQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-06-30T16:14:48Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-30T16:14:48Z"
+            },
+            "message": "Initialize `ScioContext` on `:reset` (#3109)",
+            "tree": {
+                "sha": "64500f12bd71bef10e7e6ee33dcff017b422a34b",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/64500f12bd71bef10e7e6ee33dcff017b422a34b"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/319bba57174d9db9fb329a96a1c7c68c12017111",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+2T4CRBK7hj4Ov3rIwAAdHIIAIOnRjb74gkgoyf/eGQHXBqj\nL4AVMzAoh0pcdm0JkUpGJvQKfClRAXKg6uLFV563BAs3giu63m3D1zUFZQgIw1ik\nD8ndFrkD2Fh8/WJ7Yrj0x2MkRQNk+PC618ni0sAXAPw+BCQyD3KqNHhMtfl9d331\nebgs/v5bBmrPBRQPokZZueic18jZ2GX1GTT0KnyJMSgDFY9VXQCqnp9Va7qbcxQV\nLJeFO7Efkkyu7bdX98MvVH3iUTOudIH91YQE2Fyl3gIkKViinrFZ+rUBozzTVpoN\nWNldd1I+o0uXdV6F95Q7jSJTw8Xy6c7XCZEN5/d8iSkOWrVFVIoRCy2qNQbqmAU=\n=e85q\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 64500f12bd71bef10e7e6ee33dcff017b422a34b\nparent de28875c35729da21c7942d61bddfe39b94fdbfe\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593533688 +0100\ncommitter GitHub <noreply@github.com> 1593533688 +0100\n\nInitialize `ScioContext` on `:reset` (#3109)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/319bba57174d9db9fb329a96a1c7c68c12017111",
+        "html_url": "https://github.com/spotify/scio/commit/319bba57174d9db9fb329a96a1c7c68c12017111",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/319bba57174d9db9fb329a96a1c7c68c12017111/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "de28875c35729da21c7942d61bddfe39b94fdbfe",
+                "url": "https://api.github.com/repos/spotify/scio/commits/de28875c35729da21c7942d61bddfe39b94fdbfe",
+                "html_url": "https://github.com/spotify/scio/commit/de28875c35729da21c7942d61bddfe39b94fdbfe"
+            }
+        ]
+    },
+    {
+        "sha": "de28875c35729da21c7942d61bddfe39b94fdbfe",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6ZGUyODg3NWMzNTcyOWRhMjFjNzk0MmQ2MWJkZGZlMzliOTRmZGJmZQ==",
+        "commit": {
+            "author": {
+                "name": "Julien Tournay",
+                "email": "julient@spotify.com",
+                "date": "2020-06-30T16:14:18Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-30T16:14:18Z"
+            },
+            "message": "Add support for read only `ensureTable` (#3114)",
+            "tree": {
+                "sha": "b3afb81d3baf9b7afd35e4b41a600857ddf45b80",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/b3afb81d3baf9b7afd35e4b41a600857ddf45b80"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/de28875c35729da21c7942d61bddfe39b94fdbfe",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+2TaCRBK7hj4Ov3rIwAAdHIIAAc+j+SCQNQDuMXdBHmOWVvo\nIzUao6RJkhx8yWzW5I2sLykp40nQdFMuY5ZIPv+of7nnl6+tbmR8cqu5NuPiJcg7\nJYAdRO3G96LiIeASscCOfXY1k4UwerLS+aNlmRvcQz+rodvsu3k0lhQv9E6n/P5T\ntflDSLcEg7f6M3XCA1q5oT5SEd5roCNUl8aMYUus5K/xJQ9jyA7z/Z8jFKoQHX/z\nCmq/OGdEU+2mC4npsGNktqekRbNKe1Yy3muCWszhhvUiMsAYqn0zs+bKXo+lnHeN\nT/oR/Hlpl+VOHVJRHYJqCKGUVIQJeAn0nx4VcDdwRCwr6DAxbEaZmqUQ1w1cMy4=\n=15Qu\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b3afb81d3baf9b7afd35e4b41a600857ddf45b80\nparent a24d7d65416c623bc676534e5f2dd311680bfc5f\nauthor Julien Tournay <julient@spotify.com> 1593533658 +0200\ncommitter GitHub <noreply@github.com> 1593533658 +0100\n\nAdd support for read only `ensureTable` (#3114)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/de28875c35729da21c7942d61bddfe39b94fdbfe",
+        "html_url": "https://github.com/spotify/scio/commit/de28875c35729da21c7942d61bddfe39b94fdbfe",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/de28875c35729da21c7942d61bddfe39b94fdbfe/comments",
+        "author": {
+            "login": "jto",
+            "id": 197582,
+            "node_id": "MDQ6VXNlcjE5NzU4Mg==",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/197582?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jto",
+            "html_url": "https://github.com/jto",
+            "followers_url": "https://api.github.com/users/jto/followers",
+            "following_url": "https://api.github.com/users/jto/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jto/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jto/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jto/subscriptions",
+            "organizations_url": "https://api.github.com/users/jto/orgs",
+            "repos_url": "https://api.github.com/users/jto/repos",
+            "events_url": "https://api.github.com/users/jto/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jto/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a24d7d65416c623bc676534e5f2dd311680bfc5f",
+                "url": "https://api.github.com/repos/spotify/scio/commits/a24d7d65416c623bc676534e5f2dd311680bfc5f",
+                "html_url": "https://github.com/spotify/scio/commit/a24d7d65416c623bc676534e5f2dd311680bfc5f"
+            }
+        ]
+    },
+    {
+        "sha": "a24d7d65416c623bc676534e5f2dd311680bfc5f",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6YTI0ZDdkNjU0MTZjNjIzYmM2NzY1MzRlNWYyZGQzMTE2ODBiZmM1Zg==",
+        "commit": {
+            "author": {
+                "name": "Claire McGinty",
+                "email": "claire.d.mcginty@gmail.com",
+                "date": "2020-06-29T18:23:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T18:23:20Z"
+            },
+            "message": "add small SMB sink optimizations (#3079)\n\n* add optional SMB sink optimizations\r\n\r\n* Don't cache ShardId\r\n\r\n* add flag for whether to sample+verify\r\n\r\n* make Caffeine a provided dep\r\n\r\n* Make cache PER_INSTANCE",
+            "tree": {
+                "sha": "8e46cc9c4cc6e03085bbb284d35b1dd6fe673efc",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/8e46cc9c4cc6e03085bbb284d35b1dd6fe673efc"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/a24d7d65416c623bc676534e5f2dd311680bfc5f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+jGYCRBK7hj4Ov3rIwAAdHIIAFAU30RcdT3dXeWpi859biRK\nHc+yOk5UwjaCDZ9FlPdTTroJvW3/QSXH+nWx7goGk8rKJN+POFmgtw0jfKSF9RT0\nBnY8Dn7IIeHeCrBWUf35gqx8988HTgB3X1eHW2hBrRiTAULRJmv+yg3fNuuF1wMk\naivWjxSE70NdNNur05gW163KLx+opDdC34L7ti8AEj2krxDFHrsy1N9T2Qmn8O57\nMzijw12mb10HOtOrzaG22dQHVbRFDkfgU6JiTW+pZRrFGiVdQod0eXo0d+2uZJpY\n7ffe8QM8h1JWuTIPaCmCuPOLV9VyDBfrae6wsDqCe5ls9o7g4e5PCb8Loudu2vc=\n=9yS9\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8e46cc9c4cc6e03085bbb284d35b1dd6fe673efc\nparent 2987546b4bc3933e55160e3f6604b9b62947446b\nauthor Claire McGinty <claire.d.mcginty@gmail.com> 1593455000 -0400\ncommitter GitHub <noreply@github.com> 1593455000 -0400\n\nadd small SMB sink optimizations (#3079)\n\n* add optional SMB sink optimizations\r\n\r\n* Don't cache ShardId\r\n\r\n* add flag for whether to sample+verify\r\n\r\n* make Caffeine a provided dep\r\n\r\n* Make cache PER_INSTANCE"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/a24d7d65416c623bc676534e5f2dd311680bfc5f",
+        "html_url": "https://github.com/spotify/scio/commit/a24d7d65416c623bc676534e5f2dd311680bfc5f",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/a24d7d65416c623bc676534e5f2dd311680bfc5f/comments",
+        "author": {
+            "login": "ClaireMcGinty",
+            "id": 1360529,
+            "node_id": "MDQ6VXNlcjEzNjA1Mjk=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/1360529?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ClaireMcGinty",
+            "html_url": "https://github.com/ClaireMcGinty",
+            "followers_url": "https://api.github.com/users/ClaireMcGinty/followers",
+            "following_url": "https://api.github.com/users/ClaireMcGinty/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ClaireMcGinty/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ClaireMcGinty/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ClaireMcGinty/subscriptions",
+            "organizations_url": "https://api.github.com/users/ClaireMcGinty/orgs",
+            "repos_url": "https://api.github.com/users/ClaireMcGinty/repos",
+            "events_url": "https://api.github.com/users/ClaireMcGinty/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ClaireMcGinty/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2987546b4bc3933e55160e3f6604b9b62947446b",
+                "url": "https://api.github.com/repos/spotify/scio/commits/2987546b4bc3933e55160e3f6604b9b62947446b",
+                "html_url": "https://github.com/spotify/scio/commit/2987546b4bc3933e55160e3f6604b9b62947446b"
+            }
+        ]
+    },
+    {
+        "sha": "2987546b4bc3933e55160e3f6604b9b62947446b",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6Mjk4NzU0NmI0YmMzOTMzZTU1MTYwZTNmNjYwNGI5YjYyOTQ3NDQ2Yg==",
+        "commit": {
+            "author": {
+                "name": "Shameera Rathnayaka",
+                "email": "shameera@spotify.com",
+                "date": "2020-06-29T16:40:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T16:40:55Z"
+            },
+            "message": "Update to use testId instead of toString (#3115)",
+            "tree": {
+                "sha": "de6315b1cd26391060cf7285c45b0f219e7cc17b",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/de6315b1cd26391060cf7285c45b0f219e7cc17b"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/2987546b4bc3933e55160e3f6604b9b62947446b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+hmXCRBK7hj4Ov3rIwAAdHIIAHsvy6jhlVAtCFgDrrPeAueh\nK0D9KZRtROTZjnWhRTTkcWLYfUwJkiw7vpDf+EWs1Sn37IcpQL2tF1p5zVyCQf8e\nIJNmruLOTR6SQdc0FOYisDyNvw54uYsEVu8PLGVWh2He0vMjfAdu+uYjSXBhGum8\nIFJKgx/ROGUCZihafFEK+ogY7iSRZbANTIooHFz7q+oylIJmIKRBePzoR+2UKX+3\nE0nG+oDfODE8zrS8hg7bA0lsy9wcwbpt9V3QIgZMy+xo4FKMPE0rO0TIPmRNsbkp\nceRgi+mcFiq48XuCtI43Nyv3B/zIS6hnM6a+BzK+vyyiK68ao89LgoVMXTLbT9A=\n=4mft\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree de6315b1cd26391060cf7285c45b0f219e7cc17b\nparent f89dfdf212a0424e530d1c6628655cb53c21a615\nauthor Shameera Rathnayaka <shameera@spotify.com> 1593448855 -0400\ncommitter GitHub <noreply@github.com> 1593448855 -0400\n\nUpdate to use testId instead of toString (#3115)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/2987546b4bc3933e55160e3f6604b9b62947446b",
+        "html_url": "https://github.com/spotify/scio/commit/2987546b4bc3933e55160e3f6604b9b62947446b",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/2987546b4bc3933e55160e3f6604b9b62947446b/comments",
+        "author": {
+            "login": "syodage",
+            "id": 3529221,
+            "node_id": "MDQ6VXNlcjM1MjkyMjE=",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/3529221?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/syodage",
+            "html_url": "https://github.com/syodage",
+            "followers_url": "https://api.github.com/users/syodage/followers",
+            "following_url": "https://api.github.com/users/syodage/following{/other_user}",
+            "gists_url": "https://api.github.com/users/syodage/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/syodage/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/syodage/subscriptions",
+            "organizations_url": "https://api.github.com/users/syodage/orgs",
+            "repos_url": "https://api.github.com/users/syodage/repos",
+            "events_url": "https://api.github.com/users/syodage/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/syodage/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f89dfdf212a0424e530d1c6628655cb53c21a615",
+                "url": "https://api.github.com/repos/spotify/scio/commits/f89dfdf212a0424e530d1c6628655cb53c21a615",
+                "html_url": "https://github.com/spotify/scio/commit/f89dfdf212a0424e530d1c6628655cb53c21a615"
+            }
+        ]
+    },
+    {
+        "sha": "f89dfdf212a0424e530d1c6628655cb53c21a615",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6Zjg5ZGZkZjIxMmEwNDI0ZTUzMGQxYzY2Mjg2NTVjYjUzYzIxYTYxNQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-06-29T16:24:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T16:24:03Z"
+            },
+            "message": "Refactor scio-repl underlying ILoop (#3108)",
+            "tree": {
+                "sha": "06c3044ba5faf9082649bc2d87e35dd324d1774f",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/06c3044ba5faf9082649bc2d87e35dd324d1774f"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/f89dfdf212a0424e530d1c6628655cb53c21a615",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+hWjCRBK7hj4Ov3rIwAAdHIIAKkVy73DSaaID/rPxt4isusH\n2ABvhjM1wtrwWDLUPuSvP188EPjfQf/KMYohm7z/mT8fgDqAiTLIiwxjLtjLOywv\nJiCjbx6i6GEPgovL4I1PjAc6hu52mImJpg2E5EdnOjMthWzpLFNpMMQHKeFwwFxP\ntC+2qwYsrwl4ZUGQ8F1eJeLchx+i0gpccnY8dc9nbYOLltme5HFF7lUfg1kl+611\nPGmjk5XA07nmCIwUasGjm9ch3THdJWEbGFOUxqddJPpcmx/MDgmQeG3DkxdTXckB\nYdbm6Xzzp6mu91K4Vpa7+f1E8vKMDWNzzsLZBudSsdC18rB0WzZbrwUsYomHNDQ=\n=Cosz\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 06c3044ba5faf9082649bc2d87e35dd324d1774f\nparent 4ab3e693b520dc9e28386cfae995958043ca1fff\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593447843 +0100\ncommitter GitHub <noreply@github.com> 1593447843 +0100\n\nRefactor scio-repl underlying ILoop (#3108)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/f89dfdf212a0424e530d1c6628655cb53c21a615",
+        "html_url": "https://github.com/spotify/scio/commit/f89dfdf212a0424e530d1c6628655cb53c21a615",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/f89dfdf212a0424e530d1c6628655cb53c21a615/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4ab3e693b520dc9e28386cfae995958043ca1fff",
+                "url": "https://api.github.com/repos/spotify/scio/commits/4ab3e693b520dc9e28386cfae995958043ca1fff",
+                "html_url": "https://github.com/spotify/scio/commit/4ab3e693b520dc9e28386cfae995958043ca1fff"
+            }
+        ]
+    },
+    {
+        "sha": "4ab3e693b520dc9e28386cfae995958043ca1fff",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6NGFiM2U2OTNiNTIwZGM5ZTI4Mzg2Y2ZhZTk5NTk1ODA0M2NhMWZmZg==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-06-29T15:53:29Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T15:53:29Z"
+            },
+            "message": "Fix repl-generated classfiles output directory (#3106)",
+            "tree": {
+                "sha": "db44b70a9926b6bf831b2be1e98e6c06242bc7c6",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/db44b70a9926b6bf831b2be1e98e6c06242bc7c6"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/4ab3e693b520dc9e28386cfae995958043ca1fff",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+g55CRBK7hj4Ov3rIwAAdHIIAI6XlIZswgrY9OOX9IBUuxyo\nGEfwAIPFCAT7BgmpsoTASRUc+TJJdk1QMIyh4y2hat1t2uuNhjEYpLhBa+NyIkS7\nYc55z3NmOBu58I6pMTaZJh/PYBk31MYDqGuRfhd4NNw72E81MEHqacRdrPmv2z/s\n3+GDG2RtiVUeru7HRF1Ny+NOe53s5UJ1fGmIwGptgM9VShkFPIyOUir5RgwW5Nna\noX6HPxP7tuMUVzKGRVenl/dC831DFkI+VIgrYOp1zXBSMNMsP/GBrtwrEuke3lic\nYLTSJfDfii7yiSnjfq7pzTcGpME8jRbOVDaDilD15XmnGAhLaoHDsu6X6VOW320=\n=3WhI\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree db44b70a9926b6bf831b2be1e98e6c06242bc7c6\nparent ed27cf0d9aecfea9707274c790d4715fc94d061f\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593446009 +0100\ncommitter GitHub <noreply@github.com> 1593446009 +0100\n\nFix repl-generated classfiles output directory (#3106)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/4ab3e693b520dc9e28386cfae995958043ca1fff",
+        "html_url": "https://github.com/spotify/scio/commit/4ab3e693b520dc9e28386cfae995958043ca1fff",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/4ab3e693b520dc9e28386cfae995958043ca1fff/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ed27cf0d9aecfea9707274c790d4715fc94d061f",
+                "url": "https://api.github.com/repos/spotify/scio/commits/ed27cf0d9aecfea9707274c790d4715fc94d061f",
+                "html_url": "https://github.com/spotify/scio/commit/ed27cf0d9aecfea9707274c790d4715fc94d061f"
+            }
+        ]
+    },
+    {
+        "sha": "ed27cf0d9aecfea9707274c790d4715fc94d061f",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6ZWQyN2NmMGQ5YWVjZmVhOTcwNzI3NGM3OTBkNDcxNWZjOTRkMDYxZg==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-06-29T12:14:27Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T12:14:27Z"
+            },
+            "message": "Update BigQueryType and AvroType compileTimeOnly msg (#3107)",
+            "tree": {
+                "sha": "cb82704e0a42438afcfb102e2636ede834c8cce8",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/cb82704e0a42438afcfb102e2636ede834c8cce8"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/ed27cf0d9aecfea9707274c790d4715fc94d061f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+dsjCRBK7hj4Ov3rIwAAdHIIAJrZF6PNR8146+QBZlkepEf+\nZdcoF3bsH8VbUaX8iw/osompJZau2KdDckEwyU/SvWvWdPTtFJpi02r2V7u8FnVi\n2Sgft0GgcfFJ4BHfhOcQ7ytXZaKYq75NK5BBiQAD8VOp4sxteQ9KXeCgUGwV7/et\nqoRpu3o6uXYFtUFlsJlqJPv+pUNldW5VQdh7Yxt0cOo/TqFcFMy5IUqGTjugOXJ0\nNq5Lt3AVXOEnTl5+7xQOyq90YeBPmfZWjd0m1kLgTFCJUzmDQfHbmfJ9SxwOByq2\nCFZnvjfN6MrSnlCNpUjQr4V75MyrbroFn4qBJmp1CjiRM/e63nK6fJTjKSbqzjk=\n=ouqW\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree cb82704e0a42438afcfb102e2636ede834c8cce8\nparent 3252e80e844d6953d0da08141c5ca5ac09201e5a\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593432867 +0100\ncommitter GitHub <noreply@github.com> 1593432867 +0200\n\nUpdate BigQueryType and AvroType compileTimeOnly msg (#3107)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/ed27cf0d9aecfea9707274c790d4715fc94d061f",
+        "html_url": "https://github.com/spotify/scio/commit/ed27cf0d9aecfea9707274c790d4715fc94d061f",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/ed27cf0d9aecfea9707274c790d4715fc94d061f/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3252e80e844d6953d0da08141c5ca5ac09201e5a",
+                "url": "https://api.github.com/repos/spotify/scio/commits/3252e80e844d6953d0da08141c5ca5ac09201e5a",
+                "html_url": "https://github.com/spotify/scio/commit/3252e80e844d6953d0da08141c5ca5ac09201e5a"
+            }
+        ]
+    },
+    {
+        "sha": "3252e80e844d6953d0da08141c5ca5ac09201e5a",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6MzI1MmU4MGU4NDRkNjk1M2QwZGEwODE0MWM1Y2E1YWMwOTIwMWU1YQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-06-29T08:31:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T08:31:26Z"
+            },
+            "message": "Fix scio-repl scala specific repl settings (#3089)",
+            "tree": {
+                "sha": "70efa45e0d44389a5ef68334b5c96b195ee20b95",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/70efa45e0d44389a5ef68334b5c96b195ee20b95"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/3252e80e844d6953d0da08141c5ca5ac09201e5a",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+abeCRBK7hj4Ov3rIwAAdHIIAKteaALGk3rLiPBSNnd7iHR3\nBJOnYNvTKdUC062a8DTl46gGEgKcNIIWTSah0zKsq7T+yxUcIXzLUqg5tNry4Gjd\nEY1WPYMsa1rwnqMBMqpSUNlLjTnEGnTceoT5WFHVPyyaeW7oXSvmlst01J8sdsgn\nijcTxdpsTLe+sSx5+Xus2vtwg13+zDB5WE3gKtBCXSQKYjsEhIhZ+INI6iYv/5lp\nxvAbWltE6sec046UJX+31FKFMGQtsK4igiiZ03jin8sV7PLR3nyqviSZHuBq++Ql\n59NDb3QnKPwf1HEDAsfxhosVyp18XjFelLz5d90OO2fSQaEVAdok9XZwDWqSSSY=\n=m9LA\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 70efa45e0d44389a5ef68334b5c96b195ee20b95\nparent 01a79a18312f533d00a2cc083f96fdad81d6fb29\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593419486 +0100\ncommitter GitHub <noreply@github.com> 1593419486 +0200\n\nFix scio-repl scala specific repl settings (#3089)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/3252e80e844d6953d0da08141c5ca5ac09201e5a",
+        "html_url": "https://github.com/spotify/scio/commit/3252e80e844d6953d0da08141c5ca5ac09201e5a",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/3252e80e844d6953d0da08141c5ca5ac09201e5a/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "01a79a18312f533d00a2cc083f96fdad81d6fb29",
+                "url": "https://api.github.com/repos/spotify/scio/commits/01a79a18312f533d00a2cc083f96fdad81d6fb29",
+                "html_url": "https://github.com/spotify/scio/commit/01a79a18312f533d00a2cc083f96fdad81d6fb29"
+            }
+        ]
+    },
+    {
+        "sha": "01a79a18312f533d00a2cc083f96fdad81d6fb29",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6MDFhNzlhMTgzMTJmNTMzZDAwYTJjYzA4M2Y5NmZkYWQ4MWQ2ZmIyOQ==",
+        "commit": {
+            "author": {
+                "name": "Scala Steward",
+                "email": "43047562+scala-steward@users.noreply.github.com",
+                "date": "2020-06-29T06:24:29Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T06:24:29Z"
+            },
+            "message": "Update caffeine to 2.8.5 (#3112)",
+            "tree": {
+                "sha": "caa3f984c8b3a812d87542eac7d94411f1fa6fbc",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/caa3f984c8b3a812d87542eac7d94411f1fa6fbc"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/01a79a18312f533d00a2cc083f96fdad81d6fb29",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+YkdCRBK7hj4Ov3rIwAAdHIIAFkM8EUZf48mIGdq9sH/6AZ5\nPTTlI5idDUnXMld9Cg5EZLRmp5sHQzuZLywMYTX18h1adMfUwtPLTKExpR4XJZyJ\n3clu5C+kCjYkObG1S+zzE/2CurpBfJ+jr4MqXOQ7IyM7IwU+KWt2ibtpEBr4VZQq\nD6nbJP/YbQGfBAaab5RC/E+8IZ9/2KGrN3RmgnMm+5ySgGmlgHvLMY8yNhhmLLhm\npfAOy/oG32hpGYnYgb1IeRbcNFiKn7ZGHaVNqopxLHhbSTn3cRlxo+2FzIIFp6Hb\nqV/z7tBbBnWf1volMlQYsl/Uno5BhmfMZFQ7NJ2FE5tA9CS6FiTQV53NogU6ua8=\n=7uDI\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree caa3f984c8b3a812d87542eac7d94411f1fa6fbc\nparent add7cd849297bfed3b39c0b79b8519f53de80093\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1593411869 +0200\ncommitter GitHub <noreply@github.com> 1593411869 +0100\n\nUpdate caffeine to 2.8.5 (#3112)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/01a79a18312f533d00a2cc083f96fdad81d6fb29",
+        "html_url": "https://github.com/spotify/scio/commit/01a79a18312f533d00a2cc083f96fdad81d6fb29",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/01a79a18312f533d00a2cc083f96fdad81d6fb29/comments",
+        "author": {
+            "login": "scala-steward",
+            "id": 43047562,
+            "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scala-steward",
+            "html_url": "https://github.com/scala-steward",
+            "followers_url": "https://api.github.com/users/scala-steward/followers",
+            "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+            "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+            "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+            "repos_url": "https://api.github.com/users/scala-steward/repos",
+            "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "add7cd849297bfed3b39c0b79b8519f53de80093",
+                "url": "https://api.github.com/repos/spotify/scio/commits/add7cd849297bfed3b39c0b79b8519f53de80093",
+                "html_url": "https://github.com/spotify/scio/commit/add7cd849297bfed3b39c0b79b8519f53de80093"
+            }
+        ]
+    },
+    {
+        "sha": "add7cd849297bfed3b39c0b79b8519f53de80093",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6YWRkN2NkODQ5Mjk3YmZlZDNiMzljMGI3OWI4NTE5ZjUzZGU4MDA5Mw==",
+        "commit": {
+            "author": {
+                "name": "Scala Steward",
+                "email": "43047562+scala-steward@users.noreply.github.com",
+                "date": "2020-06-29T06:24:13Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-29T06:24:13Z"
+            },
+            "message": "Update sbt to 1.3.13 (#3111)",
+            "tree": {
+                "sha": "7d41a7be8663bfdab8dc8a6c6609b2b27800c1a6",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/7d41a7be8663bfdab8dc8a6c6609b2b27800c1a6"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/add7cd849297bfed3b39c0b79b8519f53de80093",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe+YkNCRBK7hj4Ov3rIwAAdHIIALDhpY7q+BhHFeJi+X5lgyJO\nL14ZT02vlP+dzED+b6F1h90WTZ2cQrVOUWCQHA3I9yMAZYRHxgR9aj6GbvzolP2Z\ndjWOxgkqMySHREaM/M8uEbrZmwyopIjSO/MWkHkvWr+hDSIqyp41LDWmADKIBU99\npYUmP3WHzoaiMQw3DF17nxIvyjSV83W+MgoxXzd2mKJ32MxRVj8wQBkiI7yMeME4\nuGtBRg9w0sTO49UuSx2i6199S7tZMDJGT32vvlwNk69mZbGE9/umF+c4VMg5Vmg0\nLQjmNq2vrBnEAHIXUSG2UeEcJNiqcrs8l72hlBzFfXQkDb0aeeRJSI45h4FyxXk=\n=4VEO\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7d41a7be8663bfdab8dc8a6c6609b2b27800c1a6\nparent 5d9380dfd5e63969bff5fea4b36310c300c02415\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1593411853 +0200\ncommitter GitHub <noreply@github.com> 1593411853 +0100\n\nUpdate sbt to 1.3.13 (#3111)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/add7cd849297bfed3b39c0b79b8519f53de80093",
+        "html_url": "https://github.com/spotify/scio/commit/add7cd849297bfed3b39c0b79b8519f53de80093",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/add7cd849297bfed3b39c0b79b8519f53de80093/comments",
+        "author": {
+            "login": "scala-steward",
+            "id": 43047562,
+            "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/scala-steward",
+            "html_url": "https://github.com/scala-steward",
+            "followers_url": "https://api.github.com/users/scala-steward/followers",
+            "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+            "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+            "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+            "repos_url": "https://api.github.com/users/scala-steward/repos",
+            "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5d9380dfd5e63969bff5fea4b36310c300c02415",
+                "url": "https://api.github.com/repos/spotify/scio/commits/5d9380dfd5e63969bff5fea4b36310c300c02415",
+                "html_url": "https://github.com/spotify/scio/commit/5d9380dfd5e63969bff5fea4b36310c300c02415"
+            }
+        ]
+    },
+    {
+        "sha": "5d9380dfd5e63969bff5fea4b36310c300c02415",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6NWQ5MzgwZGZkNWU2Mzk2OWJmZjVmZWE0YjM2MzEwYzMwMGMwMjQxNQ==",
+        "commit": {
+            "author": {
+                "name": "Julien Tournay",
+                "email": "julient@spotify.com",
+                "date": "2020-06-26T19:19:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-26T19:19:16Z"
+            },
+            "message": "Exclude generated QueryX classes from test coverage (#3095)",
+            "tree": {
+                "sha": "9b5a70dc70aa0573d842e9460de46f1109782049",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/9b5a70dc70aa0573d842e9460de46f1109782049"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/5d9380dfd5e63969bff5fea4b36310c300c02415",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe9ko0CRBK7hj4Ov3rIwAAdHIIAKX02tq4h3j/8dgUGTmAuZMJ\nXpP8EJ7OkKa2ydubd8SBxXn8UEld4g7afkhmCPaL2dNhLn6xu/IwIGVNR4273m0Z\ncUCW5PxkhuwW2TYiXQtAgtlDRx+eoihOLEs/aDisx8Ro722YZnN0x3g4OJYdp7OE\nwOdrzE8kDptvww4md6Na4eNZSitL66JDT9ojeIeN3qiz6Ka/u3RB//kKR7A9EqNF\nuYm2qtvg/d7Md6c+t9ZpMBuP99ZTeNd7fv3HGSENGHvoR3VY9hB3BvX+00rTZZq1\nyrLGmIzr4EZoV5k5XEfea/k15LeM1ARg9UWySpi4JkDVla+VnNvn/fzFT9ptRTQ=\n=972b\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 9b5a70dc70aa0573d842e9460de46f1109782049\nparent 4cdf540e52762a2351d95d62163a504020cc7f90\nauthor Julien Tournay <julient@spotify.com> 1593199156 +0200\ncommitter GitHub <noreply@github.com> 1593199156 -0400\n\nExclude generated QueryX classes from test coverage (#3095)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/5d9380dfd5e63969bff5fea4b36310c300c02415",
+        "html_url": "https://github.com/spotify/scio/commit/5d9380dfd5e63969bff5fea4b36310c300c02415",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/5d9380dfd5e63969bff5fea4b36310c300c02415/comments",
+        "author": {
+            "login": "jto",
+            "id": 197582,
+            "node_id": "MDQ6VXNlcjE5NzU4Mg==",
+            "avatar_url": "https://avatars1.githubusercontent.com/u/197582?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jto",
+            "html_url": "https://github.com/jto",
+            "followers_url": "https://api.github.com/users/jto/followers",
+            "following_url": "https://api.github.com/users/jto/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jto/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jto/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jto/subscriptions",
+            "organizations_url": "https://api.github.com/users/jto/orgs",
+            "repos_url": "https://api.github.com/users/jto/repos",
+            "events_url": "https://api.github.com/users/jto/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jto/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4cdf540e52762a2351d95d62163a504020cc7f90",
+                "url": "https://api.github.com/repos/spotify/scio/commits/4cdf540e52762a2351d95d62163a504020cc7f90",
+                "html_url": "https://github.com/spotify/scio/commit/4cdf540e52762a2351d95d62163a504020cc7f90"
+            }
+        ]
+    },
+    {
+        "sha": "4cdf540e52762a2351d95d62163a504020cc7f90",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6NGNkZjU0MGU1Mjc2MmEyMzUxZDk1ZDYyMTYzYTUwNDAyMGNjN2Y5MA==",
+        "commit": {
+            "author": {
+                "name": "kellen",
+                "email": "kellen@users.noreply.github.com",
+                "date": "2020-06-26T19:18:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-26T19:18:20Z"
+            },
+            "message": "Wrap skewedJoin internals in transform (#3104)\n\n* Wrap skewedJoins in transform\r\n\r\n* scalafmt\r\n\r\n* Pass self to partition explicitly\r\n\r\nCo-authored-by: Kellen Dye <kellend@spotify.com>",
+            "tree": {
+                "sha": "3016cbbfe715cbb203e065252ebdabb2fb980ba4",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/3016cbbfe715cbb203e065252ebdabb2fb980ba4"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/4cdf540e52762a2351d95d62163a504020cc7f90",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe9kn8CRBK7hj4Ov3rIwAAdHIIAJOLLO0NUVp9dCoSCgqlRKcA\nAFI19S6rH8No0ehYpL4gXNEq0PmAeog4LaXweuZgzSXOIhInqfr33bzBDfKI8oCk\n9/qOr9/+9Klp+joMxGodAfUVFm30l2vSs9Qbgs3RwJB0svTHeASE4KZ8RDpBnUm9\nolvcXBsgLO7V490nETCcBhWy8r7ckGdvoS9exhFy3e59skK4QK+SZUW+xL/meBMe\nXbrV72aDd9AvQcLsOwLOCF/v0GTQ07pa0FSIzjOamTWykWA/OVJ3eN5f8VosaNkR\ny5A8d6gLiadI3YFC1kRM6FpW8O4hIF0eKmEPrsdlnL06qRDSFVuaQQZVEEIm0Hw=\n=eKmp\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3016cbbfe715cbb203e065252ebdabb2fb980ba4\nparent 933596f16596531825cf68f36f4a89065e174fa1\nauthor kellen <kellen@users.noreply.github.com> 1593199100 -0400\ncommitter GitHub <noreply@github.com> 1593199100 -0400\n\nWrap skewedJoin internals in transform (#3104)\n\n* Wrap skewedJoins in transform\r\n\r\n* scalafmt\r\n\r\n* Pass self to partition explicitly\r\n\r\nCo-authored-by: Kellen Dye <kellend@spotify.com>"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/4cdf540e52762a2351d95d62163a504020cc7f90",
+        "html_url": "https://github.com/spotify/scio/commit/4cdf540e52762a2351d95d62163a504020cc7f90",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/4cdf540e52762a2351d95d62163a504020cc7f90/comments",
+        "author": {
+            "login": "kellen",
+            "id": 486691,
+            "node_id": "MDQ6VXNlcjQ4NjY5MQ==",
+            "avatar_url": "https://avatars0.githubusercontent.com/u/486691?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kellen",
+            "html_url": "https://github.com/kellen",
+            "followers_url": "https://api.github.com/users/kellen/followers",
+            "following_url": "https://api.github.com/users/kellen/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kellen/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kellen/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kellen/subscriptions",
+            "organizations_url": "https://api.github.com/users/kellen/orgs",
+            "repos_url": "https://api.github.com/users/kellen/repos",
+            "events_url": "https://api.github.com/users/kellen/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kellen/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "933596f16596531825cf68f36f4a89065e174fa1",
+                "url": "https://api.github.com/repos/spotify/scio/commits/933596f16596531825cf68f36f4a89065e174fa1",
+                "html_url": "https://github.com/spotify/scio/commit/933596f16596531825cf68f36f4a89065e174fa1"
+            }
+        ]
+    },
+    {
+        "sha": "933596f16596531825cf68f36f4a89065e174fa1",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6OTMzNTk2ZjE2NTk2NTMxODI1Y2Y2OGYzNmY0YTg5MDY1ZTE3NGZhMQ==",
+        "commit": {
+            "author": {
+                "name": "Filipe Regadas",
+                "email": "filiperegadas@gmail.com",
+                "date": "2020-06-26T14:53:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-26T14:53:20Z"
+            },
+            "message": "Replace socco with socco-ng 0.1.1 (#3090)",
+            "tree": {
+                "sha": "ce1a146fd5b39a6bb7f4858ff15218be30b68830",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/ce1a146fd5b39a6bb7f4858ff15218be30b68830"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/933596f16596531825cf68f36f4a89065e174fa1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe9gvgCRBK7hj4Ov3rIwAAdHIIACdPmzJPq7CgfMJnWWJN1HrW\n8ewfEYJpcAtnu6hdpO7P1su9RZqrNesig+6kbTJ956U7Ubci30Q6D5uud2Wm7F48\n0xA0Del/fvlbrKyfB2f3XS6Si+f66aV68JDYFvEJKTIgy1HXMF3byrrovP7j9KGh\nGwngI7CNxzZ8ZGQAGy1b1B03y3Rp+z9ev8qnv/fstFb/w4v5F80Ij5lIQdT3IzyQ\nMq4Y73JvmsSHOIa1BNrS5JXiykAKr1rwwRCC7utKWgJKLpFGD7AC9cd7bs7/nOb1\nDBbimm6cdE1ztwWNZF4ZdUZN1vHxjA6qyZ/ioEoOJlB0wLUhhYxldymK5uQT4kQ=\n=WoGW\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ce1a146fd5b39a6bb7f4858ff15218be30b68830\nparent 63bc75c49384c6e092670fd7525efe62723b18be\nauthor Filipe Regadas <filiperegadas@gmail.com> 1593183200 +0100\ncommitter GitHub <noreply@github.com> 1593183200 +0100\n\nReplace socco with socco-ng 0.1.1 (#3090)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/933596f16596531825cf68f36f4a89065e174fa1",
+        "html_url": "https://github.com/spotify/scio/commit/933596f16596531825cf68f36f4a89065e174fa1",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/933596f16596531825cf68f36f4a89065e174fa1/comments",
+        "author": {
+            "login": "regadas",
+            "id": 163899,
+            "node_id": "MDQ6VXNlcjE2Mzg5OQ==",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/163899?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regadas",
+            "html_url": "https://github.com/regadas",
+            "followers_url": "https://api.github.com/users/regadas/followers",
+            "following_url": "https://api.github.com/users/regadas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regadas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regadas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regadas/subscriptions",
+            "organizations_url": "https://api.github.com/users/regadas/orgs",
+            "repos_url": "https://api.github.com/users/regadas/repos",
+            "events_url": "https://api.github.com/users/regadas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regadas/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "63bc75c49384c6e092670fd7525efe62723b18be",
+                "url": "https://api.github.com/repos/spotify/scio/commits/63bc75c49384c6e092670fd7525efe62723b18be",
+                "html_url": "https://github.com/spotify/scio/commit/63bc75c49384c6e092670fd7525efe62723b18be"
+            }
+        ]
+    },
+    {
+        "sha": "63bc75c49384c6e092670fd7525efe62723b18be",
+        "node_id": "MDY6Q29tbWl0MzI5NDY2NjI6NjNiYzc1YzQ5Mzg0YzZlMDkyNjcwZmQ3NTI1ZWZlNjI3MjNiMThiZQ==",
+        "commit": {
+            "author": {
+                "name": "Shintaro Murakami",
+                "email": "mrkm4ntr@gmail.com",
+                "date": "2020-06-26T14:53:06Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2020-06-26T14:53:06Z"
+            },
+            "message": "Ensures the future returned by addCallback will complete (#3099)",
+            "tree": {
+                "sha": "70ad490a35ebac7270019a55e9980416e3d304bd",
+                "url": "https://api.github.com/repos/spotify/scio/git/trees/70ad490a35ebac7270019a55e9980416e3d304bd"
+            },
+            "url": "https://api.github.com/repos/spotify/scio/git/commits/63bc75c49384c6e092670fd7525efe62723b18be",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJe9gvSCRBK7hj4Ov3rIwAAdHIIADXZhHG2gkSxpwcR/R3l7SVq\nwB2705FVRZ3Sef9828YhZDw6u9jvDu7Kq1hF1yQz6BsDuyk1bN0JsePLS+Vg5PZX\nctumERSd93kWMUO9HqODHdKdJHP/ObwFy8uaLkycglth7WDLgI7tRuXaBWxqXMMX\nDhvH/iCfN+AEKNvgnRnmrpkCwcAwUFWt2pnQ1BiG2jLXUog1asX7dzo2x4vrxXS8\nVnBsg4ulg8U7KsurQWovdq1xLeqf9jSWJO41iCIBRoN7llFD4doU2EW62NDckWol\n1Wy7ii7PugxGrINh8NomHHEJoYyYYZzEf26Ttz8TCXefCpIbTz8FU2DuNR9zkMc=\n=x9Uu\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 70ad490a35ebac7270019a55e9980416e3d304bd\nparent 7cd2e6cb75349b18466974248b0ea11650373001\nauthor Shintaro Murakami <mrkm4ntr@gmail.com> 1593183186 +0900\ncommitter GitHub <noreply@github.com> 1593183186 +0100\n\nEnsures the future returned by addCallback will complete (#3099)\n\n"
+            }
+        },
+        "url": "https://api.github.com/repos/spotify/scio/commits/63bc75c49384c6e092670fd7525efe62723b18be",
+        "html_url": "https://github.com/spotify/scio/commit/63bc75c49384c6e092670fd7525efe62723b18be",
+        "comments_url": "https://api.github.com/repos/spotify/scio/commits/63bc75c49384c6e092670fd7525efe62723b18be/comments",
+        "author": {
+            "login": "mrkm4ntr",
+            "id": 6421289,
+            "node_id": "MDQ6VXNlcjY0MjEyODk=",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/6421289?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mrkm4ntr",
+            "html_url": "https://github.com/mrkm4ntr",
+            "followers_url": "https://api.github.com/users/mrkm4ntr/followers",
+            "following_url": "https://api.github.com/users/mrkm4ntr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mrkm4ntr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mrkm4ntr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mrkm4ntr/subscriptions",
+            "organizations_url": "https://api.github.com/users/mrkm4ntr/orgs",
+            "repos_url": "https://api.github.com/users/mrkm4ntr/repos",
+            "events_url": "https://api.github.com/users/mrkm4ntr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mrkm4ntr/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7cd2e6cb75349b18466974248b0ea11650373001",
+                "url": "https://api.github.com/repos/spotify/scio/commits/7cd2e6cb75349b18466974248b0ea11650373001",
+                "html_url": "https://github.com/spotify/scio/commit/7cd2e6cb75349b18466974248b0ea11650373001"
+            }
+        ]
+    }
+]
