@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### It interacts with GitHub Developers API to search for repositoriers, commiters and user's biography
+<img src="samples/search.png"/>
+
+### Click on the Details link to display more information about the repository
+<img src="samples/modal.png"/>
+
 ## Available Scripts
 
 In the project directory, you can run:
